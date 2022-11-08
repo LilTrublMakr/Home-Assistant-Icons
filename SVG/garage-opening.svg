@@ -1,0 +1,26 @@
+<svg viewBox="0 0 24 24">
+  <style>
+    @keyframes opening {
+      0% { opacity: 1; }
+      100% { opacity: 0; }              
+    }
+    .garage-bottom-opening {
+      animation: opening 0.66s ease;
+      animation-fill-mode: forwards;
+    }
+    .garage-mid-opening {
+      animation: opening 0.66s ease;
+      animation-delay: 0.66s;
+      animation-fill-mode: forwards;
+    }
+    .garage-top-opening {
+      animation: opening 0.66s ease;
+      animation-delay: 1.32s;
+      animation-fill-mode: forwards;
+    }
+  </style>
+  <polyline class="garage-house" points="22,9 22,20 20,20 20,11 4,11 4,20 2,20 2,9 12,5 22,9 "/>
+  <polyline class="garage-top-opening" points="19,12 5,12 5,14 19,14 19,12 "/>
+  <rect class="garage-mid-opening" x="5" y="15" width="14" height="2"/>
+  <polyline class="garage-bottom-opening" points="19,18 5,18 5,20 19,20 19,18 "/>
+</svg>
