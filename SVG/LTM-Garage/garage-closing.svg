@@ -2,14 +2,14 @@
   <polyline class="garage-house" points="220,90 220,200 200,200 200,110 40,110 40,200 20,200 20,90 120,50 220,90 "/>
   <rect class="garage-top-closing" x="50" y="120" width="140" height="20">
     <animate id="animate11" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0s;animate12.end"/>
-    <animate id="animate12" attributeName="opacity" from="0" to="1" dur="1s" begin="animate11.end"/>
+    <animate id="animate12" attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
   <rect class="garage-mid-closing" x="50" y="150" width="140" height="20">
-    <animate id="animate21" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0.66s;animate22.end+0.66s"/>
-    <animate id="animate22" attributeName="opacity" from="0" to="1" dur="1s" begin="animate21.end+0.66s"/>
+    <animate id="animate21" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0.66s;animate11.end+0.66s"/>
+    <animate id="animate22" attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
   <rect class="garage-bottom-closing" x="50" y="180" width="140" height="20">
-    <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="1.32s;animate32.end+1.32s"/>
-    <animate id="animate32" attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end+1.34s"/>
+    <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="1.32s;animate21.end+0.66s"/>
+    <animate id="animate32" attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
 </svg>
