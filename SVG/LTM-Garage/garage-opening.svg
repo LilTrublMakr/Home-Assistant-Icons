@@ -1,4 +1,8 @@
+<<<<<<< HEAD:SVG/LTM-Garage/garage-opening.svg
 <svg viewBox="0 0 24 24" width="240">
+=======
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full"  version="1.1" viewBox="0 0 240 240" width="240">
+>>>>>>> 5b4a44227ec05d362c61f43b481fed6c7b333bc1:SVG/garage-opening.svg
   <style>
     @keyframes opening {
       0% { opacity: 1; }
@@ -19,8 +23,16 @@
       animation-fill-mode: forwards;
     }
   </style>
+<<<<<<< HEAD:SVG/LTM-Garage/garage-opening.svg
   <polyline class="garage-house" points="22,9 22,20 20,20 20,11 4,11 4,20 2,20 2,9 12,5 22,9 "/>
   <rect class="garage-top-opening" x="5" y="12" width="14" height="2"/>
   <rect class="garage-mid-opening" x="5" y="15" width="14" height="2"/>
   <rect class="garage-bottom-opening" x="5" y="18" width="14" height="2"/>
 </svg>
+=======
+  <polyline class="garage-house" points="220,90 220,200 200,20 200,110 40,110 40,200 20,200 20,90 120,50 220,90 "/>
+  <rect class="garage-top-opening" x="50" y="120" width="140" height="20"/>
+  <rect class="garage-mid-opening" x="50" y="150" width="140" height="20"/>
+  <rect class="garage-bottom-opening" x="50" y="180" width="140" height="20"/>
+</svg>
+>>>>>>> 5b4a44227ec05d362c61f43b481fed6c7b333bc1:SVG/garage-opening.svg
