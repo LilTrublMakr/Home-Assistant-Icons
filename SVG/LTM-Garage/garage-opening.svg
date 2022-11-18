@@ -1,7 +1,7 @@
 <svg viewBox="0 0 24 24" width="240" xmlns="http://www.w3.org/2000/svg">
   <polyline class="garage-house" points="22,9 22,20 20,20 20,11 4,11 4,20 2,20 2,9 12,5 22,9 "/>
   <rect class="garage-top-opening" x="5" y="12" width="14" height="2">
-    <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="animate31.end" fill="freeze"/>
+    <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="animate21.end" fill="freeze"/>
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end" fill="freeze"/>
   </rect>
   <rect class="garage-mid-opening" x="5" y="15" width="14" height="2">
