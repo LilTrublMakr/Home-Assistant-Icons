@@ -1,0 +1,6 @@
+<svg viewBox="0 0 24 24" width="240">
+  <polyline class="garage-house" points="22,9 22,20 20,20 20,11 4,11 4,20 2,20 2,9 12,5 22,9 "/>
+  <rect x="5" y="12" width="14" height="2"/>
+  <rect x="5" y="15" width="14" height="2"/>
+  <rect x="5" y="18" width="14" height="2"/>
+</svg>
