@@ -1,6 +1,8 @@
 # Animated Garage
 
-![Garage Opening](./garage-opening.svg) ![Garage Open](./garage-open.svg) ![Garage Closing](./garage-closing.svg) ![Garage Closed](./garage-closed.svg)
+| Opening | Open | Closing | Closed |
+| --- | --- | --- | --- |
+| ![Garage Opening](./garage-opening.svg) | ![Garage Open](./garage-open.svg) | ![Garage Closing](./garage-closing.svg) | ![Garage Closed](./garage-closed.svg) |
 
 ```yaml
 icon_garage:
