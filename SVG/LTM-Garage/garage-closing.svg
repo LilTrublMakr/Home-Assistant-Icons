@@ -5,11 +5,11 @@
     <animate attributeName="opacity" from="1" to="0" dur="1s" begin="animate31.end"/>
   </rect>
   <rect class="garage-mid-closing" x="50" y="150" width="140" height="20" opacity="0">
-    <animate id="animate21" attributeName="opacity" from="0" to="1" dur="0.66s" begin="animate11.end+0.66s" fill="freeze"/>
+    <animate id="animate21" attributeName="opacity" from="0" to="1" dur="0.66s" begin="animate11.end" fill="freeze"/>
     <animate attributeName="opacity" from="1" to="0" dur="1s" begin="animate31.end"/>
   </rect>
   <rect class="garage-bottom-closing" x="50" y="180" width="140" height="20" opacity="0">
-    <animate id="animate31" attributeName="opacity" from="0" to="1" dur="0.66s" begin="animate21.end+0.66s" fill="freeze"/>
+    <animate id="animate31" attributeName="opacity" from="0" to="1" dur="0.66s" begin="animate21.end" fill="freeze"/>
     <animate attributeName="opacity" from="1" to="0" dur="1s" begin="animate31.end"/>
   </rect>
 </svg>
