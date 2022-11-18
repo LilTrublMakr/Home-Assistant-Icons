@@ -1,29 +1,17 @@
 <svg viewBox="0 0 240 240" width="240" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes closing {
-      0% { opacity: 0; }
-      100% { opacity: 1; }              
-    }
-    .garage-bottom-closing {
-      opacity: 0;
-      animation: closing 0.66s ease;
-      animation-delay: 1.32s;
-      animation-fill-mode: forwards;
-    }
-    .garage-mid-closing {
-      opacity: 0;
-      animation: closing 0.66s ease;
-      animation-delay: 0.66s;
-      animation-fill-mode: forwards;
-    }
-    .garage-top-closing {
-      opacity: 0;
-      animation: closing 0.66s ease;
-      animation-fill-mode: forwards;
-    }
   </style>
   <polyline class="garage-house" points="220,90 220,200 200,200 200,110 40,110 40,200 20,200 20,90 120,50 220,90 "/>
-  <rect class="garage-top-closing" x="50" y="120" width="140" height="20"/>
+  <rect class="garage-top-closing" x="50" y="120" width="140" height="20">
+    <animate id="animate11" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0s;animate12.end"/>
+    <animate id="animate11" attributeName="opacity" from="0" to="1" dur="1s" begin="animate11.end"/>
+  </rect>
   <rect class="garage-mid-closing" x="50" y="150" width="140" height="20"/>
+    <animate id="animate21" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0.66s;animate22.end+0.66s"/>
+    <animate id="animate22" attributeName="opacity" from="0" to="1" dur="1s" begin="animate21.end"/>
+  </rect>
   <rect class="garage-bottom-closing" x="50" y="180" width="140" height="20"/>
+    <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="1.32s;animate32.end+1.32s"/>
+    <animate id="animate32" attributeName="opacity" from="0" to="1" dur="1s" begin="animate311.end"/>
+  </rect>
 </svg>
