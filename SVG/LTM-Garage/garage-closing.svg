@@ -1,14 +1,14 @@
 <svg viewBox="0 0 240 240" width="240" xmlns="http://www.w3.org/2000/svg">
   <polyline class="garage-house" points="220,90 220,200 200,200 200,110 40,110 40,200 20,200 20,90 120,50 220,90 "/>
-  <rect class="garage-top-closing" x="50" y="120" width="140" height="20">
+  <rect class="garage-top-closing" x="50" y="120" width="140" height="20" opacity="0">
     <animate id="animate11" attributeName="opacity" from="1" to="0" dur="0.66s" begin="0s;animate31.end+1s"/>
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
-  <rect class="garage-mid-closing" x="50" y="150" width="140" height="20">
+  <rect class="garage-mid-closing" x="50" y="150" width="140" height="20" opacity="0">
     <animate id="animate21" attributeName="opacity" from="1" to="0" dur="0.66s" begin="animate11.end+0.66s"/>
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
-  <rect class="garage-bottom-closing" x="50" y="180" width="140" height="20">
+  <rect class="garage-bottom-closing" x="50" y="180" width="140" height="20" opacity="0">
     <animate id="animate31" attributeName="opacity" from="1" to="0" dur="0.66s" begin="animate21.end+0.66s"/>
     <animate attributeName="opacity" from="0" to="1" dur="1s" begin="animate31.end"/>
   </rect>
