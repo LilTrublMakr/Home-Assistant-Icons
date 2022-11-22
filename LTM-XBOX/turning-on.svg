@@ -3,7 +3,7 @@
 		.glow {
 		  stroke: #9da0a2;
 		  opacity: 0;
-		  animation: glow-on 1s ease-out;
+		  animation: glow 1s ease-out;
 		  animation-delay: 1s;
 		}
 		
