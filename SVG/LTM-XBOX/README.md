@@ -10,7 +10,7 @@ Designed by LilTrublMakr
 | --- | --- | --- | --- |
 | ![Turning On](./turning-on.svg) | ![On](./on.svg) | ![Turning Off](./turning-off.svg) | ![Off](./off.svg) |
 
-## icons.yaml
+## /button_card_templates/icons.yaml
 
 ```yaml
 icon_xbox:
