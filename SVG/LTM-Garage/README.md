@@ -10,13 +10,6 @@ Designed by LilTrublMakr
 | --- | --- | --- | --- |
 | ![Garage Opening](./garage-opening.svg) | ![Garage Open](./garage-open.svg) | ![Garage Closing](./garage-closing.svg) | ![Garage Closed](./garage-closed.svg) |
 
-## /button_card_templates/base.yaml
-
-Find line: `state_on: >
-      [[[ return ['on', 'home', 'cool', 'fan_only', 'playing', 'unlocked'].indexOf(!entity || entity.state) !== -1; ]]]`
-
-Add `open` to the list: `...'unlocked', 'open'].indexOf...`
-
 ## /button_card_templates/icons.yaml
 
 ```yaml
@@ -75,7 +68,7 @@ icon_garage:
             }
           </style>
         `;
-        if (variables.state_on && variables.timeout < 2000) {
+        if (variables.state === "opening" || variables.state === "open" && variables.timeout < 2000) {
             return `
               <svg viewBox="0 0 24 24">
                 ${style}
